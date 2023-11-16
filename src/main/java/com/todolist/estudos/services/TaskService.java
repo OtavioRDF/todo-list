@@ -29,7 +29,7 @@ public class TaskService {
     }
 
     public Task createTask(TaskRequest taskRequest){
-        Task task = new Task();
+        task = new Task();
 
         task.setTitle(taskRequest.getTitle());
         task.setDescription(taskRequest.getDescription());
